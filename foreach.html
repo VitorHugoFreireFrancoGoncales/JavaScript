@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Script</title>
+    <script>
+
+        var listaFuncionarios = ['Viviane', 'Rosângela', 'Miguel', 'Lucas', 'Fernanda']
+
+        console.log(listaFuncionarios)
+        document.write(listaFuncionarios[3])
+
+        var f = function(valor, indice) {
+            console.log(valor, indice)
+        }
+
+        listaFuncionarios.forEach(f)
+
+
+
+    /*Imprimi a um novo valor e substitui o antigo
+        listaFuncionarios.forEach(function(valor, indice, array) {
+            //lógica
+            console.log('Índice: ' + indice + ' | valor: ' + valor)
+
+            if(valor == 'Miguel'){
+                array[indice] = 'Um novo valor'
+            }
+        })
+
+        console.log(listaFuncionarios)
+        document.write('<br />' + listaFuncionarios[2])
+    */
+    </script>
+</head>
+
+
+
+<body>
+
+</body>
+</html>

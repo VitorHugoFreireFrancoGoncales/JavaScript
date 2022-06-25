@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+
+    <script>
+    
+    var ano_atual = prompt('Digite o ano atual: ')
+    var ano_nascimento = prompt('Digite o seu ano de nascimento: ')
+
+
+    var idade = ano_atual - ano_nascimento
+    
+    
+    if (idade >= 0 && idade <= 15) {
+        document.write('criança ')
+    } else if (idade >= 15 && idade <= 30) {
+        document.write('Jovem ')
+    } else if (idade >= 30 && idade <= 60) {
+        document.write('Adulto ')
+    } else if (idade >= 60) {
+        document.write('Idoso ')
+    } else {
+        document.write('Nem Existe ')
+    }
+    
+    document.write(idade)
+    console.log(ano_atual)
+    
+
+
+    /*
+switch(1,2,3,4) {
+
+    case (idade >= 0 && idade <= 15):
+        document.write('Criança')
+    break //interromper o processso
+
+    case (idade >= 15 && idade <= 30):
+    document.write('Jovem')
+    break
+
+    case (idade >= 30 && idade <= 60):
+    document.write('Adulto')
+    break
+
+    case (idade >= 60):
+    document.write('Idoso')
+    break
+
+    default: // E um Se não do IF
+    document.write('Resultado não encontrado')
+    break
+
+    console.log(idade)
+}
+
+*/
+
+    </script>
+</head>
+
+<body>
+
+
+
+
+
+</body>
+</html>

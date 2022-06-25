@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+
+    var num1 = prompt('Digite um numero')
+    var num2 = prompt('Digite um numero')
+    var operacao = prompt('Digite a operação')
+
+
+            num1 = parseFloat(num1);
+            num2 = parseFloat(num2);
+            var resultado = 0;
+
+    switch (operacao) {
+
+        case 'soma':
+            var resultado = num1 + num2
+        break //interromper o processso
+
+        case 'subtração':
+            var resultado = num1 - num2
+        break
+
+        case 'multiplicação':
+            var resultado = num1 * num2
+        break
+
+        default: // E um Se não do IF
+        document.write('Default')
+    }
+
+    document.write('O resultado da operação e ' + resultado)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>
